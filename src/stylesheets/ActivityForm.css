@@ -1,0 +1,29 @@
+.activity-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-input{
+    width: 400px;
+    height: 100%;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px  14px 18px;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+
+}
+
+.activity-button{
+    height: 100%;
+    padding: 16px;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    background-color: #4bc57a;
+    color: white;
+    text-transform: capitalize;
+}

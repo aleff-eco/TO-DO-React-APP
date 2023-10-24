@@ -1,0 +1,56 @@
+.activity-container{
+    display: list-item;
+    width: 95%;
+    min-height: 65px;
+    background-color: #9898f3;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.activity-container:nth-child(5n + 1){
+    background-color: #9898f3;
+}
+
+.activity-container:nth-child(5n + 2){
+    background-color: rgb(162, 162, 240);
+}
+
+.activity-container:nth-child(5n + 3){
+    background-color: #afafee;
+}
+
+.activity-container:nth-child(5n + 4){
+    background-color: #babaf0;
+}
+
+.activity-container:nth-child(5n + 5){
+    background-color: #c1c1ee;
+}
+
+.activity-text{
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.activity-icon{
+    width: 55px;
+    height: 30px;
+}
+
+.activity-container.completed{
+    background-color: #a2f7c5;
+    text-decoration: line-through;
+}
+
+.activity-icon.completed{
+    text-decoration: line-through;
+}
